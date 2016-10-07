@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3AD2D1D1DA7B0EF002A89D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD2D1C1DA7B0EF002A89D6 /* AppDelegate.swift */; };
+		A3AD2D1F1DA7B0EF002A89D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD2D1E1DA7B0EF002A89D6 /* ViewController.swift */; };
+		A3AD2D221DA7B0EF002A89D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AD2D201DA7B0EF002A89D6 /* Main.storyboard */; };
+		A3AD2D241DA7B0EF002A89D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AD2D231DA7B0EF002A89D6 /* Assets.xcassets */; };
+		A3AD2D271DA7B0EF002A89D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AD2D251DA7B0EF002A89D6 /* LaunchScreen.storyboard */; };
+		A3D2C7191DA7B58200266601 /* DPTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D2C7141DA7B58200266601 /* DPTimeCollectionViewCell.swift */; };
+		A3D2C71A1DA7B58200266601 /* DPTimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D2C7151DA7B58200266601 /* DPTimeCollectionViewCell.xib */; };
+		A3D2C71B1DA7B58200266601 /* DPTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D2C7161DA7B58200266601 /* DPTimePicker.swift */; };
+		A3D2C71C1DA7B58200266601 /* DPTimePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D2C7171DA7B58200266601 /* DPTimePicker.xib */; };
+		A3D2C71D1DA7B58200266601 /* EZYGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D2C7181DA7B58200266601 /* EZYGradientView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3AD2D191DA7B0EF002A89D6 /* DPTimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPTimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AD2D1C1DA7B0EF002A89D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3AD2D1E1DA7B0EF002A89D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3AD2D211DA7B0EF002A89D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3AD2D231DA7B0EF002A89D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3AD2D261DA7B0EF002A89D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3AD2D281DA7B0EF002A89D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D2C7141DA7B58200266601 /* DPTimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPTimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		A3D2C7151DA7B58200266601 /* DPTimeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPTimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		A3D2C7161DA7B58200266601 /* DPTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPTimePicker.swift; sourceTree = "<group>"; };
+		A3D2C7171DA7B58200266601 /* DPTimePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPTimePicker.xib; sourceTree = "<group>"; };
+		A3D2C7181DA7B58200266601 /* EZYGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZYGradientView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3AD2D161DA7B0EF002A89D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3AD2D101DA7B0EF002A89D6 = {
+			isa = PBXGroup;
+			children = (
+				A3AD2D1B1DA7B0EF002A89D6 /* DPTimePicker */,
+				A3AD2D1A1DA7B0EF002A89D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3AD2D1A1DA7B0EF002A89D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3AD2D191DA7B0EF002A89D6 /* DPTimePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3AD2D1B1DA7B0EF002A89D6 /* DPTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A3AD2D2E1DA7B0FC002A89D6 /* DPTimePicker */,
+				A3AD2D1C1DA7B0EF002A89D6 /* AppDelegate.swift */,
+				A3AD2D1E1DA7B0EF002A89D6 /* ViewController.swift */,
+				A3AD2D201DA7B0EF002A89D6 /* Main.storyboard */,
+				A3AD2D231DA7B0EF002A89D6 /* Assets.xcassets */,
+				A3AD2D251DA7B0EF002A89D6 /* LaunchScreen.storyboard */,
+				A3AD2D281DA7B0EF002A89D6 /* Info.plist */,
+			);
+			path = DPTimePicker;
+			sourceTree = "<group>";
+		};
+		A3AD2D2E1DA7B0FC002A89D6 /* DPTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A3D2C7141DA7B58200266601 /* DPTimeCollectionViewCell.swift */,
+				A3D2C7151DA7B58200266601 /* DPTimeCollectionViewCell.xib */,
+				A3D2C7161DA7B58200266601 /* DPTimePicker.swift */,
+				A3D2C7171DA7B58200266601 /* DPTimePicker.xib */,
+				A3D2C7181DA7B58200266601 /* EZYGradientView.swift */,
+			);
+			name = DPTimePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3AD2D181DA7B0EF002A89D6 /* DPTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AD2D2B1DA7B0EF002A89D6 /* Build configuration list for PBXNativeTarget "DPTimePicker" */;
+			buildPhases = (
+				A3AD2D151DA7B0EF002A89D6 /* Sources */,
+				A3AD2D161DA7B0EF002A89D6 /* Frameworks */,
+				A3AD2D171DA7B0EF002A89D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPTimePicker;
+			productName = DPTimePicker;
+			productReference = A3AD2D191DA7B0EF002A89D6 /* DPTimePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3AD2D111DA7B0EF002A89D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Dario Pellegrini";
+				TargetAttributes = {
+					A3AD2D181DA7B0EF002A89D6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SDK36A53QL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A3AD2D141DA7B0EF002A89D6 /* Build configuration list for PBXProject "DPTimePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3AD2D101DA7B0EF002A89D6;
+			productRefGroup = A3AD2D1A1DA7B0EF002A89D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3AD2D181DA7B0EF002A89D6 /* DPTimePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3AD2D171DA7B0EF002A89D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AD2D271DA7B0EF002A89D6 /* LaunchScreen.storyboard in Resources */,
+				A3AD2D241DA7B0EF002A89D6 /* Assets.xcassets in Resources */,
+				A3AD2D221DA7B0EF002A89D6 /* Main.storyboard in Resources */,
+				A3D2C71A1DA7B58200266601 /* DPTimeCollectionViewCell.xib in Resources */,
+				A3D2C71C1DA7B58200266601 /* DPTimePicker.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3AD2D151DA7B0EF002A89D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AD2D1F1DA7B0EF002A89D6 /* ViewController.swift in Sources */,
+				A3D2C7191DA7B58200266601 /* DPTimeCollectionViewCell.swift in Sources */,
+				A3D2C71D1DA7B58200266601 /* EZYGradientView.swift in Sources */,
+				A3D2C71B1DA7B58200266601 /* DPTimePicker.swift in Sources */,
+				A3AD2D1D1DA7B0EF002A89D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3AD2D201DA7B0EF002A89D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AD2D211DA7B0EF002A89D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3AD2D251DA7B0EF002A89D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AD2D261DA7B0EF002A89D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3AD2D291DA7B0EF002A89D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3AD2D2A1DA7B0EF002A89D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3AD2D2C1DA7B0EF002A89D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SDK36A53QL;
+				INFOPLIST_FILE = DPTimePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dariopellegrini.DPTimePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A3AD2D2D1DA7B0EF002A89D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SDK36A53QL;
+				INFOPLIST_FILE = DPTimePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dariopellegrini.DPTimePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3AD2D141DA7B0EF002A89D6 /* Build configuration list for PBXProject "DPTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AD2D291DA7B0EF002A89D6 /* Debug */,
+				A3AD2D2A1DA7B0EF002A89D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3AD2D2B1DA7B0EF002A89D6 /* Build configuration list for PBXNativeTarget "DPTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AD2D2C1DA7B0EF002A89D6 /* Debug */,
+				A3AD2D2D1DA7B0EF002A89D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3AD2D111DA7B0EF002A89D6 /* Project object */;
+}

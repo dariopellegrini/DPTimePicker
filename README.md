@@ -49,9 +49,12 @@ timePicker.pointsColor = UIColor.cyan // central points color
 timePicker.topGradientColor = UIColor.blue // bottom gradient view color
 timePicker.bottomGradientColor = UIColor.green // top gradient view color
 timePicker.fadeAnimation = true // is fade animation enabled (default true)
-timePicker.springAnimations = true // is spring animations enabled (default true)
+timePicker.springAnimations = true // are spring animations enabled (default true)
+timePicker.fadeAnimation = true // is initial scroll animation enabled
 timePicker.areLinesHidden = false // are central lines hidden (default false)
 timePicker.arePointsHidden = false // are centra points hidden (default false)
+timePicker.initialHour = "15" // set initial hour (default "00")
+timePicker.initialMinute = "12" // set initial minute (default "00")
 ```
 
 ## Delegate

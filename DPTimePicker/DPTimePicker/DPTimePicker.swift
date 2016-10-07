@@ -79,6 +79,8 @@ open class DPTimePicker: UIView {
     var minutes: [String] = []
     var selectedHour: String = "00"
     var selectedMinute: String = "00"
+    var initialHour: String = "00"
+    var initialMinute: String = "00"
     
     open var delegate: DPTimePickerDelegate?
     
@@ -90,8 +92,10 @@ open class DPTimePicker: UIView {
     
     open var areLinesHidden = false
     open var arePointsHidden = false
+    
     open var fadeAnimation = true
     open var springAnimations = true
+    open var scrollAnimations = true
 
     @IBOutlet weak var centralLabel: UILabel!
     @IBOutlet weak var hoursCollectionView: UICollectionView!
@@ -172,11 +176,20 @@ open class DPTimePicker: UIView {
         layoutIfNeeded()
     }
     
-    func configureOffset() {
-        let hour = Int(selectedHour)
-        let minute = Int(selectedMinute)
-        hoursCollectionView.scrollToItem(at: IndexPath(row: hour!, section: 0), at: .centeredVertically, animated: true)
-        minutesCollectionView.scrollToItem(at: IndexPath(row: minute!, section: 0), at: .centeredVertically, animated: true)
+    func configureOffset(animated: Bool) {
+        if let hour = Int(initialHour) {
+            if hour >= 0 && hour <= 23 {
+                hoursCollectionView.scrollToItem(at: IndexPath(row: hour, section: 0), at: .centeredVertically, animated: animated)
+                selectedHour = String(hour)
+            }
+        }
+        
+        if let minute = Int(initialMinute) {
+            if minute >= 0 && minute <= 59 {
+                minutesCollectionView.scrollToItem(at: IndexPath(row: minute, section: 0), at: .centeredVertically, animated: animated)
+                selectedMinute = String(minute)
+            }
+        }
     }
     
     func configureGradientColor() {
@@ -243,6 +256,10 @@ open class DPTimePicker: UIView {
         
         configureGradientColor()
         
+        if !scrollAnimations {
+            self.configureOffset(animated: false)
+        }
+        
         if springAnimations {
             configureInitialComponents()
         }
@@ -260,6 +277,7 @@ open class DPTimePicker: UIView {
     }
     
     func makeAppear(_ completion: (() -> ())?) {
+        
         if springAnimations {
             hoursTrailingConstraint.constant = 0
             minutesLeadingConstraint.constant = 0
@@ -268,7 +286,9 @@ open class DPTimePicker: UIView {
                 [unowned self] in
                 self.layoutIfNeeded()
                 }, completion: { success in
-                    self.configureOffset()
+                    if self.scrollAnimations {
+                        self.configureOffset(animated: self.scrollAnimations)
+                    }
                     completion?()
             })
             
@@ -285,6 +305,9 @@ open class DPTimePicker: UIView {
                     }
             })
         } else {
+            if scrollAnimations {
+                self.configureOffset(animated: scrollAnimations)
+            }
             if let completion = completion {
                 completion()
             }

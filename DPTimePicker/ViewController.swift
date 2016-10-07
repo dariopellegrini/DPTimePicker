@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         timePicker.fadeAnimation = true
         timePicker.springAnimations = true
         timePicker.areLinesHidden = false
+        timePicker.arePointsHidden = false
     }
     
     override func didReceiveMemoryWarning() {

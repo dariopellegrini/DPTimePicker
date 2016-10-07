@@ -89,6 +89,7 @@ open class DPTimePicker: UIView {
     open var bottomGradientColor = UIColor.orange
     
     open var areLinesHidden = false
+    open var arePointsHidden = false
     open var fadeAnimation = true
     open var springAnimations = true
 

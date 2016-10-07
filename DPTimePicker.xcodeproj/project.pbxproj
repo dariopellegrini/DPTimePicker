@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		679487E91DA7D34E00C8294E /* DPTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679487E41DA7D34E00C8294E /* DPTimeCollectionViewCell.swift */; };
+		679487EA1DA7D34E00C8294E /* DPTimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 679487E51DA7D34E00C8294E /* DPTimeCollectionViewCell.xib */; };
+		679487EB1DA7D34E00C8294E /* DPTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679487E61DA7D34E00C8294E /* DPTimePicker.swift */; };
+		679487EC1DA7D34E00C8294E /* DPTimePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 679487E71DA7D34E00C8294E /* DPTimePicker.xib */; };
+		679487ED1DA7D34E00C8294E /* EZYGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679487E81DA7D34E00C8294E /* EZYGradientView.swift */; };
 		A3AD2D1D1DA7B0EF002A89D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD2D1C1DA7B0EF002A89D6 /* AppDelegate.swift */; };
 		A3AD2D1F1DA7B0EF002A89D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AD2D1E1DA7B0EF002A89D6 /* ViewController.swift */; };
 		A3AD2D221DA7B0EF002A89D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AD2D201DA7B0EF002A89D6 /* Main.storyboard */; };
 		A3AD2D241DA7B0EF002A89D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AD2D231DA7B0EF002A89D6 /* Assets.xcassets */; };
 		A3AD2D271DA7B0EF002A89D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AD2D251DA7B0EF002A89D6 /* LaunchScreen.storyboard */; };
-		A3D2C7191DA7B58200266601 /* DPTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D2C7141DA7B58200266601 /* DPTimeCollectionViewCell.swift */; };
-		A3D2C71A1DA7B58200266601 /* DPTimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D2C7151DA7B58200266601 /* DPTimeCollectionViewCell.xib */; };
-		A3D2C71B1DA7B58200266601 /* DPTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D2C7161DA7B58200266601 /* DPTimePicker.swift */; };
-		A3D2C71C1DA7B58200266601 /* DPTimePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D2C7171DA7B58200266601 /* DPTimePicker.xib */; };
-		A3D2C71D1DA7B58200266601 /* EZYGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D2C7181DA7B58200266601 /* EZYGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		679487E41DA7D34E00C8294E /* DPTimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DPTimeCollectionViewCell.swift; path = DPTimePicker/DPTimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		679487E51DA7D34E00C8294E /* DPTimeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DPTimeCollectionViewCell.xib; path = DPTimePicker/DPTimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		679487E61DA7D34E00C8294E /* DPTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DPTimePicker.swift; path = DPTimePicker/DPTimePicker.swift; sourceTree = "<group>"; };
+		679487E71DA7D34E00C8294E /* DPTimePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DPTimePicker.xib; path = DPTimePicker/DPTimePicker.xib; sourceTree = "<group>"; };
+		679487E81DA7D34E00C8294E /* EZYGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EZYGradientView.swift; path = DPTimePicker/EZYGradientView.swift; sourceTree = "<group>"; };
 		A3AD2D191DA7B0EF002A89D6 /* DPTimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPTimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AD2D1C1DA7B0EF002A89D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3AD2D1E1DA7B0EF002A89D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,11 +32,6 @@
 		A3AD2D231DA7B0EF002A89D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3AD2D261DA7B0EF002A89D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3AD2D281DA7B0EF002A89D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3D2C7141DA7B58200266601 /* DPTimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPTimeCollectionViewCell.swift; sourceTree = "<group>"; };
-		A3D2C7151DA7B58200266601 /* DPTimeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPTimeCollectionViewCell.xib; sourceTree = "<group>"; };
-		A3D2C7161DA7B58200266601 /* DPTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPTimePicker.swift; sourceTree = "<group>"; };
-		A3D2C7171DA7B58200266601 /* DPTimePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPTimePicker.xib; sourceTree = "<group>"; };
-		A3D2C7181DA7B58200266601 /* EZYGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZYGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +78,11 @@
 		A3AD2D2E1DA7B0FC002A89D6 /* DPTimePicker */ = {
 			isa = PBXGroup;
 			children = (
-				A3D2C7141DA7B58200266601 /* DPTimeCollectionViewCell.swift */,
-				A3D2C7151DA7B58200266601 /* DPTimeCollectionViewCell.xib */,
-				A3D2C7161DA7B58200266601 /* DPTimePicker.swift */,
-				A3D2C7171DA7B58200266601 /* DPTimePicker.xib */,
-				A3D2C7181DA7B58200266601 /* EZYGradientView.swift */,
+				679487E41DA7D34E00C8294E /* DPTimeCollectionViewCell.swift */,
+				679487E51DA7D34E00C8294E /* DPTimeCollectionViewCell.xib */,
+				679487E61DA7D34E00C8294E /* DPTimePicker.swift */,
+				679487E71DA7D34E00C8294E /* DPTimePicker.xib */,
+				679487E81DA7D34E00C8294E /* EZYGradientView.swift */,
 			);
 			name = DPTimePicker;
 			sourceTree = "<group>";
@@ -150,8 +150,8 @@
 				A3AD2D271DA7B0EF002A89D6 /* LaunchScreen.storyboard in Resources */,
 				A3AD2D241DA7B0EF002A89D6 /* Assets.xcassets in Resources */,
 				A3AD2D221DA7B0EF002A89D6 /* Main.storyboard in Resources */,
-				A3D2C71A1DA7B58200266601 /* DPTimeCollectionViewCell.xib in Resources */,
-				A3D2C71C1DA7B58200266601 /* DPTimePicker.xib in Resources */,
+				679487EA1DA7D34E00C8294E /* DPTimeCollectionViewCell.xib in Resources */,
+				679487EC1DA7D34E00C8294E /* DPTimePicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,9 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3AD2D1F1DA7B0EF002A89D6 /* ViewController.swift in Sources */,
-				A3D2C7191DA7B58200266601 /* DPTimeCollectionViewCell.swift in Sources */,
-				A3D2C71D1DA7B58200266601 /* EZYGradientView.swift in Sources */,
-				A3D2C71B1DA7B58200266601 /* DPTimePicker.swift in Sources */,
+				679487E91DA7D34E00C8294E /* DPTimeCollectionViewCell.swift in Sources */,
+				679487ED1DA7D34E00C8294E /* EZYGradientView.swift in Sources */,
+				679487EB1DA7D34E00C8294E /* DPTimePicker.swift in Sources */,
 				A3AD2D1D1DA7B0EF002A89D6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

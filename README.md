@@ -4,15 +4,14 @@ Custom fullscreen time picker with scrollviews and animations written in Swift.
 
 ## Example
 
-To run the example project, clone or download the repo it and run DPTimePicker.xcodeproj. Time picker's classes is in DPTimePicker subfolder.
+To run the example project, clone or download the repo and run DPTimePicker.xcodeproj. Time picker's classes are in DPTimePicker subfolder.
 
 ## Requirements
 iOS 9.0+
 
 ## Installation
 
-Simply drag DPTimePicker subfolder into your project.
-(to do: port on Cocoapods)
+Simply drag DPTimePicker subfolder into your project (to do: port on Cocoapods).
 
 ## Usage
 
@@ -21,10 +20,6 @@ Use this code to add the time picker to your view controller:
 ```swift
 let timePicker: DPTimePicker = DPTimePicker.timePicker()
 timePicker.insertInView(view)
-
-/*
-In order to show the time picker
-*/
 
 /*
 Customization goes here
@@ -60,21 +55,19 @@ timePicker.arePointsHidden = false // are centra points hidden (default false)
 ```
 
 ## Delegate
-It's possible to catch close and confirm action of the time picker.
+It's possible to catch close and confirm action of the time picker using its delegate.
 ```swift
-extension ViewController: DPTimePickerDelegate {
-    func timePickerDidConfirm(_ hour: String, minute: String, timePicker: DPTimePicker) {
-        print("Confirm")
-    }
-
-    func timePickerDidClose(_ timePicker: DPTimePicker) {
-        print("Cancel")
-    }
-}
-
-...
 
 timePicker.delegate = self
+
+func timePickerDidConfirm(_ hour: String, minute: String, timePicker: DPTimePicker) {
+    print("Confirm")
+}
+
+func timePickerDidClose(_ timePicker: DPTimePicker) {
+    print("Cancel")
+}
+
 ```
 
 ## Author
@@ -83,6 +76,4 @@ Dario Pellegrini, pellegrini.dario.1303@gmail.com
 
 ## Credits
 
-Gradient view are built with: [GitHub Pages](https://github.com/shashankpali/EZYGradientView)
-
-# DPTime Picker
+Gradient view are built with: [EZGradientView](https://github.com/shashankpali/EZYGradientView)

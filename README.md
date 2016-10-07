@@ -27,6 +27,7 @@ Customization goes here
 
 timePicker.show(nil)
 ```
+For further details check the example project
 
 ## Customization
 

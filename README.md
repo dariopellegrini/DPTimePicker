@@ -2,9 +2,6 @@
 
 Custom fullscreen time picker with scrollviews and animations written in Swift.
 
-![alt tag](https://raw.githubusercontent.com/dariopellegrini/DPRadialMenu/master/Screen/animation.gif)
-![alt tag](https://raw.githubusercontent.com/dariopellegrini/DPRadialMenu/master/screen/screen2.png)
-
 ## Example
 
 To run the example project, clone or download the repo it and run DPTimePicker.xcodeproj. Time picker's classes is in DPTimePicker subfolder.

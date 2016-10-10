@@ -1,7 +1,7 @@
 # DPTimePicker
 
-![alt tag](https://raw.githubusercontent.com/dariopellegrini/DPTimePicker/master/DPTimePicker.gif)
-![alt tag](https://raw.githubusercontent.com/dariopellegrini/DPTimePicker/master/screen/DPTimePicker.png)
+![alt tag](https://github.com/dariopellegrini/DPTimePicker/blob/master/DPTimePicker.gif)
+![alt tag](https://github.com/dariopellegrini/DPTimePicker/blob/master/DPTimePicker.png)
 
 Custom fullscreen time picker with scrollviews and animations written in Swift.
 
